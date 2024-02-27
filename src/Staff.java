@@ -14,7 +14,7 @@ public class Staff extends Person{
     @Override
     public void print(){
         super.print();
-        System.out.println("Salary: "+salary);
         System.out.println("ID: S-"+staffId);
+        System.out.println("Salary: "+salary);
     }
 }
