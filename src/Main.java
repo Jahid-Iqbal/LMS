@@ -5,8 +5,9 @@ public class Main {
         Person person2= new Person("Iqbal","Uttara","asdf","0175");
         Staff staff= new Staff("Iqbal","Uttara","asdf","0175",2500);
         Officer officer= new Officer("Iqbal","Uttara","asdf","0175",2500);
+        SupportStaff ss= new SupportStaff("Abdullah","Uttara","asdf","0175",2500);
 
-        officer.print();
+        ss.print();
     }
 
 }
